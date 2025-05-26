@@ -1,0 +1,125 @@
+{
+    "footer": {
+      "tagline": "Digital Kampanje — Øk bevisstheten rundt deepfakes og digitale medier.",
+      "privacy": "Personvernerklæring og cookies-erklæring",
+      "follow": "Følg oss"
+    },
+    "nav": {
+      "home": "Hjem",
+      "info": "Info",
+      "quiz": "Quiz",
+      "stats": "Statistikk"
+    },
+
+        "home": {
+          "deepfakeWhat": {
+            "title": "Hva er en deepfake?",
+            "paragraph": "En deepfake er en video eller lydopptak som er manipulert ved hjelp av kunstig intelligens for å få det til å se eller høres ut som om noen sier eller gjør noe de aldri faktisk har gjort. Det spesielle med deepfakes er hvor ekte de kan virke, selv om de er fullstendig falske. For eksempel kan noen lage en video der en kjent person sier noe kontroversielt, selv om personen aldri har sagt det i virkeligheten. Det som gjør deepfakes ekstra skumle er at det blir vanskelig å vite hva som er ekte og hva som er manipulert, fordi teknologien bak dem er blitt så avansert at de kan lure både øynene og ørene våre. Mange tenker kanskje at dette bare er en morsom greie på nettet, men deepfakes kan misbrukes på alvorlige måter og påvirke hvordan vi oppfatter virkeligheten."
+          },
+          "deepfakeHow": {
+            "title": "Hvordan lages deepfakes?",
+            "paragraph": "Deepfakes lages ved hjelp av kunstig intelligens, spesielt en teknologi som kalles nevrale nettverk, som etterligner måten hjernen vår lærer på. Først samler man store mengder bilder eller videoer av en bestemt person, ofte hentet fra internett eller sosiale medier. Disse brukes til å trene opp et dataprogram til å forstå hvordan personen ser ut fra ulike vinkler, hvordan ansiktet deres beveger seg når de snakker, og hvordan stemmen deres høres ut. Etter treningen kan programmet begynne å lage helt nye videoer eller lydklipp som ser ekte ut, men som er 100 prosent kunstig laget. Det krever kraftig datakapasitet og mye informasjon for å lage en god deepfake, men teknologien blir hele tiden enklere å bruke, og det finnes i dag apper og verktøy som lar nesten hvem som helst lage sine egne deepfakes uten særlig teknisk kunnskap."
+          },
+          "deepfakeDanger": {
+            "title": "Hvorfor er dette farlig?",
+            "paragraph": "Deepfakes er farlige fordi de utfordrer vår evne til å skille mellom det som er sant og det som er falskt, og dette kan ha store konsekvenser både for enkeltpersoner og samfunnet generelt. Når noen lager en falsk video av en person som sier noe de aldri har sagt, kan det skade ryktet deres, skape misforståelser eller til og med brukes som et våpen i politiske konflikter. I tillegg brukes deepfakes ofte til å lage falskt innhold av folk i sårbare situasjoner, for eksempel ved å manipulere bilder til å se ut som nakenbilder, noe som kan føre til alvorlig mobbing, trakassering og psykiske problemer for de som rammes. Når teknologien også blir brukt til svindel, for eksempel å late som man er en sjef i en bedrift og be om pengeoverføringer, viser det hvor alvorlig problemet kan være. Det farligste med deepfakes er kanskje at de kan undergrave tilliten vi har til det vi ser og hører, noe som gjør det vanskeligere å vite hva vi egentlig kan stole på i en verden full av informasjon."
+          }
+        },
+
+        
+            "hero": {
+              "title": "Kan du avsløre en deepfake?",
+              "description": "Bli med på en interaktiv opplevelse for å lære hvordan du kjenner igjen falske medier.",
+              "buttonText": "Start Quiz"
+            },
+            
+                "navbar": {
+                  "home": "Hjem",
+                  "info": "Info",
+                  "quiz": "Quiz",
+                  "stats": "Statistikk"
+                },
+
+                
+                    "info": {
+                      "ariaLabel": "Informasjon om deepfakes og AI",
+                      "title": "Deepfakes: Forstå Teknologien, Faren og Hvordan Beskytte Seg",
+                  
+                      "whatIsDeepfakes": {
+                        "title": "Hva er Deepfakes?",
+                        "paragraph1": "Deepfakes er medieinnhold – som videoer eller bilder – som er kunstig laget eller manipulert ved hjelp av avansert kunstig intelligens (AI). Ved å bruke nevrale nettverk og maskinlæring kan man lage svært realistiske falske videoer hvor personer ser ut til å gjøre eller si noe de aldri har gjort.",
+                        "paragraph2": "Teknologien brukes i alt fra underholdning til mer problematiske formål som desinformasjon og svindel."
+                      },
+                  
+                      "exampleVideo": {
+                        "title": "Eksempel på Deepfake-video",
+                        "alt": "Eksempel på deepfake teknologi",
+                        "caption": "Dette er et eksempel på hvordan AI kan generere falske videoer som ser svært realistiske ut."
+                      },
+                  
+                      "whyDeepfakesDangerous": {
+                        "title": "Hvorfor er Deepfakes farlige?",
+                        "intro": "Fordi de kan overbevise oss om falsk informasjon, har deepfakes mange potensielle farer:",
+                        "manipulation": {
+                          "title": "Manipulasjon",
+                          "text": "Skape falske nyheter eller politisk propaganda."
+                        },
+                        "personalHarm": {
+                          "title": "Personlig skade",
+                          "text": "Lage falske videoer som kan skade noens omdømme."
+                        },
+                        "fraud": {
+                          "title": "Svindel og utpressing",
+                          "text": "Bruke deepfakes til økonomisk vinning eller trusler."
+                        },
+                        "destabilization": {
+                          "title": "Demokratisk destabilisering",
+                          "text": "Undergrave tillit til medier og informasjon."
+                        },
+                        "conclusion": "Det gjør det avgjørende for oss å kunne identifisere og forstå denne teknologien."
+                      },
+                  
+                      "dangerousUseVideo": {
+                        "title": "Video: Farlig bruk av deepfakes",
+                        "alt": "Eksempel på farlig bruk av deepfake teknologi",
+                        "caption": "En illustrasjon på hvordan deepfake-videoer kan bli brukt i misledende sammenhenger."
+                      },
+                  
+                      "howToDetect": {
+                        "title": "Hvordan kan du oppdage deepfakes?",
+                        "intro": "Det finnes flere metoder for å oppdage deepfakes:",
+                        "method1": "Se etter unaturlige ansiktsbevegelser, som blinking eller ansiktsuttrykk.",
+                        "method2": "Vær skeptisk til videoer uten klar kilde eller som sprer seg raskt.",
+                        "method3": "Bruk faktasjekkingstjenester og pålitelige nyhetskilder.",
+                        "method4": "Vær oppmerksom på uvanlige lydeffekter eller stemmer som ikke virker autentiske.",
+                        "conclusion": "Teknologi for å avsløre deepfakes utvikler seg også raskt, men det er viktig at vi selv forblir kritiske."
+                      },
+                  
+                      "safetyTips": {
+                        "title": "Praktiske tips for sikker bruk av digitale medier",
+                        "tip1": { "strong": "Dobbeltsjekk alltid kilden", "text": "før du stoler på en video eller et bilde." },
+                        "tip2": { "strong": "Ikke del videoer", "text": "som du ikke er sikker på er ekte." },
+                        "tip3": { "strong": "Hold deg oppdatert", "text": "om teknologi og nye trender innen AI." },
+                        "tip4": { "strong": "Bruk pålitelige verktøy", "text": "for faktasjekking og videoanalyse." },
+                        "tip5": { "strong": "Snakk med andre", "text": "om hva du har lært for å øke bevisstheten." }
+                      },
+                  
+                      "futureAI": {
+                        "title": "AI og fremtiden: Hva kan vi forvente?",
+                        "alt": "Eksempel på AI-teknologi",
+                        "caption": "AI utvikler seg raskt og kan både skape nye muligheter og utfordringer for samfunnet vårt."
+                      },
+                  
+                      "conclusion": {
+                        "title": "Avslutning",
+                        "paragraph1": "Deepfakes representerer en stor teknologisk utvikling med både positive og negative sider. Ved å forstå teknologien og være kritiske til det vi ser og hører, kan vi beskytte oss mot misbruk. Denne siden har gitt deg kunnskap til å navigere bedre i en verden hvor AI spiller en stadig større rolle.",
+                        "paragraph2": "Husk: Teknologi er verktøy – det er opp til oss hvordan vi bruker den."
+                      }
+                    }
+                  }
+                  
+              
+              
+          
+      
+  

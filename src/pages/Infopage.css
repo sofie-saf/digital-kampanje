@@ -1,0 +1,172 @@
+/* Variables for colors */
+:root {
+  --color-bg: #f0f9ff;
+  --color-primary: #2c3e50;
+  --color-accent: #3b82f6;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-border: #cbd5e1;
+  --color-tip-bg: #e0e7ff;
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the whole page */
+.info-page {
+  max-width: 1200px;  /* Wider for desktop */
+  margin: 3rem auto 6rem auto;
+  padding: 0 2rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  user-select: text;
+}
+
+/* Headings */
+.info-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.info-page h2 {
+  font-size: 2.2rem;
+  color: var(--color-primary);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--color-accent);
+  padding-bottom: 0.25rem;
+}
+
+/* Paragraphs */
+.info-page p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+/* Lists */
+.info-page ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+
+.info-page ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+}
+
+/* Video sections */
+.info-page .video-section {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(59, 130, 246, 0.15);
+  background: white;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.info-page .video-section:hover {
+  transform: scale(1.03);
+}
+
+.info-page video {
+  max-width: 100%;
+  border-radius: 8px;
+  outline: none;
+  background: black;
+}
+
+.info-page .caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  font-style: italic;
+  text-align: center;
+}
+
+/* Tips section */
+.info-page .tips-section {
+  background: var(--color-tip-bg);
+  border-left: 6px solid var(--color-accent);
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.1);
+  font-size: 1.125rem;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.info-page .tips-section ul {
+  list-style-type: square;
+  margin-left: 1.75rem;
+}
+
+.info-page .tips-section ul li {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+/* Fade-in animations */
+.info-page .fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.info-page .fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+  .info-page {
+    max-width: 95vw;
+    padding: 0 1.5rem;
+  }
+
+  .info-page h1 {
+    font-size: 2.4rem;
+  }
+
+  .info-page h2 {
+    font-size: 1.8rem;
+  }
+
+  .info-page p, .info-page ul li {
+    font-size: 1rem;
+  }
+
+  .info-page .tips-section {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-page h1 {
+    font-size: 1.9rem;
+  }
+
+  .info-page h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Accessibility */
+.info-page video:focus {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+  box-shadow: 0 0 6px var(--color-accent);
+  border-radius: 8px;
+}

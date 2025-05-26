@@ -1,0 +1,42 @@
+{
+    "footer": {
+      "tagline": "Digital Campaign — Raise awareness around deepfakes and digital media.",
+      "privacy": "Privacy and cookie policy",
+      "follow": "Follow us"
+    },
+    "nav": {
+      "home": "Home",
+      "info": "Info",
+      "quiz": "Quiz",
+      "stats": "Statistics"
+    },
+  "home": {
+    "deepfakeWhat": {
+      "title": "What is a deepfake?",
+      "paragraph": "A deepfake is a video or audio recording manipulated using artificial intelligence to make it seem like someone is saying or doing something they never actually did. The special thing about deepfakes is how real they can look, even though they are completely fake. For example, someone can create a video of a famous person saying something controversial, even though the person never said it in reality. What makes deepfakes especially scary is that it becomes hard to know what is real and what is manipulated, because the technology behind them has become so advanced that they can fool both our eyes and ears. Many may think this is just a fun thing online, but deepfakes can be misused in serious ways and affect how we perceive reality."
+    },
+    "deepfakeHow": {
+      "title": "How are deepfakes made?",
+      "paragraph": "Deepfakes are made using artificial intelligence, especially a technology called neural networks, which mimics how our brain learns. First, large amounts of images or videos of a specific person are collected, often from the internet or social media. These are used to train a computer program to understand how the person looks from different angles, how their face moves when they talk, and how their voice sounds. After training, the program can create entirely new videos or audio clips that look real but are 100 percent artificially made. It requires powerful computing capacity and a lot of data to make a good deepfake, but the technology is becoming easier to use, and there are apps and tools today that let almost anyone make their own deepfakes without much technical knowledge."
+    },
+    "deepfakeDanger": {
+      "title": "Why is this dangerous?",
+      "paragraph": "Deepfakes are dangerous because they challenge our ability to distinguish between what is true and false, and this can have major consequences for individuals and society at large. When someone creates a fake video of a person saying something they never said, it can damage their reputation, create misunderstandings, or even be used as a weapon in political conflicts. Additionally, deepfakes are often used to create fake content of people in vulnerable situations, such as manipulating images to look like nudes, which can lead to serious bullying, harassment, and mental health problems for those affected. When the technology is also used for fraud, for example pretending to be a boss in a company to ask for money transfers, it shows how serious the problem can be. Perhaps the most dangerous thing about deepfakes is that they can undermine the trust we have in what we see and hear, making it harder to know what we can truly rely on in a world full of information."
+    }
+  },
+  
+    "hero": {
+      "title": "Can you spot a deepfake?",
+      "description": "Join an interactive experience to learn how to recognize fake media.",
+      "buttonText": "Start Quiz"
+    },
+    
+        "navbar": {
+          "home": "Home",
+          "info": "Info",
+          "quiz": "Quiz",
+          "stats": "Statistics"
+        }
+      }
+      
+      
